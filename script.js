@@ -28,7 +28,7 @@ header.textContent = `${day} ${daysOfWeek[new Date(year, month, day).getDay()]}`
 const select = document.createElement("select");
 select.className = "select-caregiver";
 select.innerHTML = `<option value="">--Select--</option>
-<option value="mother">Mother</option>
+<option value="Leanne">Leanne</option>
 <option value="father">Father</option>`;
 
 if (saved) {
