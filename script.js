@@ -29,7 +29,7 @@ const select = document.createElement("select");
 select.className = "select-caregiver";
 select.innerHTML = `<option value="">--Select--</option>
 <option value="Leanne">Leanne</option>
-<option value="father">Father</option>`;
+<option value="Chris">Chris</option>`;
 
 if (saved) {
 select.value = saved;
